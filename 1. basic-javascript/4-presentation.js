@@ -1,3 +1,3 @@
 // Write - Your - Code
-console.log('Novian Andika')
-console.log(24)
+console.log('Novian Andika');
+console.log(24);
