@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 const rawPrice = Number(prompt('Enter the raw price'));
 
 // VAT rate = 20.6%
