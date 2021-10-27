@@ -4,7 +4,7 @@ var aurora = {
   strength: 25,
   xp: 0,
   describe() {
-    return `${this.name} has ${this.health} health point and ${this.strength} as strenght and ${this.xp} xp`;
+    return `${this.name} has ${this.health} health point and ${this.strength} as strength and ${this.xp} xp`;
   },
 };
 

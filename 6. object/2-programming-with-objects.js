@@ -1,33 +1,33 @@
 const aurora = {
   name: 'Aurora',
   health: 250,
-  streght: 25,
+  strength: 25,
 
   describe() {
-    return `${this.name} has ${this.health} health points and ${this.streght} as strenght`;
+    return `${this.name} has ${this.health} health points and ${this.strength} as strength`;
   },
 };
 
 console.log(aurora.describe());
 
-// console.log(`${aurora.name} has ${aurora.health} health point and ${aurora.streght} as streght`);
+// console.log(`${aurora.name} has ${aurora.health} health point and ${aurora.strength} as strength`);
 
 // // Aurora harmed by an arrow
 
 // aurora.health -= 20;
 
-// // Aurora equips a streght necklace
+// // Aurora equips a strength necklace
 
-// aurora.streght += 10;
+// aurora.strength += 10;
 
-// console.log(`${aurora.name} has ${aurora.health} health point and ${aurora.streght} as streght`);
+// console.log(`${aurora.name} has ${aurora.health} health point and ${aurora.strength} as strength`);
 
 // Adding method to an object
 
 // Return the character description
 
 // function describe(character) {
-//   return `${character.name} has ${character.health} health points and ${character.streght} as strength`;
+//   return `${character.name} has ${character.health} health points and ${character.strength} as strength`;
 // }
 
 // console.log(describe(aurora));

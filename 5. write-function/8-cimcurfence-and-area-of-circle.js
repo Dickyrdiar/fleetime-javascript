@@ -1,4 +1,4 @@
-function cimcurference(radius) {
+function circumference(radius) {
   let circum = 2 * Math.PI * radius;
   return circum;
 }
@@ -8,5 +8,5 @@ function area(radius) {
   return area;
 }
 
-console.log(cimcurference(2));
+console.log(circumference(2));
 console.log(area(4));
